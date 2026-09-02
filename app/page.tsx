@@ -18,7 +18,6 @@ import Footer from '@/components/Footer'
 import About from '@/components/About'
 
 const LoadingScreen = dynamic(() => import('@/components/LoadingScreen'), { ssr: false })
-const CustomCursor = dynamic(() => import('@/components/CustomCursor'), { ssr: false })
 
 export default function Home() {
   const [loading, setLoading] = useState(true)
@@ -33,14 +32,13 @@ export default function Home() {
   return (
     <>
       {loading && <LoadingScreen onComplete={() => setLoading(false)} />}
-      {!loading && <CustomCursor />}
       <main>
         <Navbar />
         <Hero />
         <Stats />
         <About />
         <Services />
-        <Projects />
+       
         <Technologies />
         <WhyChooseUs />
         <Process />
