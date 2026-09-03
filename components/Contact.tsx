@@ -109,6 +109,7 @@ export default function Contact() {
     handleSubmit,
     formState: { errors, isSubmitting },
     reset,
+    watch,
   } = useForm<FormData>()
 
   useEffect(() => {
@@ -137,6 +138,8 @@ export default function Contact() {
     setTimeout(() => setCopied(false), 2000)
   }
 
+  const watchedFields = watch()
+
   const inputClasses = (field: string) =>
     `w-full bg-white/5 backdrop-blur-sm border-b-2 py-3.5 px-4 font-inter text-base text-white placeholder:text-transparent focus:outline-none transition-all duration-300 rounded-lg ${
       focusedField === field ? 'border-cyan-500 shadow-lg shadow-cyan-500/10' : 'border-white/10 hover:border-white/20'
@@ -144,7 +147,7 @@ export default function Contact() {
 
   const labelClasses = (field: string) =>
     `absolute left-4 font-inter text-sm transition-all duration-300 pointer-events-none ${
-      focusedField === field || (document.querySelector(`[name="${field}"]`) as HTMLInputElement)?.value
+      focusedField === field || watchedFields[field as keyof FormData]
         ? '-translate-y-7 scale-75 text-cyan-400'
         : 'top-3.5 text-white/30'
     }`

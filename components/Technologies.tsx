@@ -292,11 +292,12 @@ export default function Technologies() {
                     </motion.h3>
 
                     {/* Category */}
-                    <p className="font-mono text-[10px] uppercase tracking-wider transition-colors duration-300"
+                    <motion.p
+                      className="font-mono text-[10px] uppercase tracking-wider transition-colors duration-300"
                       animate={{ color: isHovered ? 'rgba(255,255,255,0.6)' : 'rgba(255,255,255,0.3)' }}
                     >
                       {tech.category}
-                    </p>
+                    </motion.p>
 
                     {/* Animated Progress Bar */}
                     <motion.div
