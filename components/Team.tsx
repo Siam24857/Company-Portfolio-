@@ -7,37 +7,29 @@ import Image from 'next/image'
 
 const team = [
   {
-    name: 'Alex Morgan',
-    image: '/images/team/alex-morgan.jpg',
-    role: 'CEO & Founder',
-    description: 'Visionary leader with 15+ years in tech. Drives IDEON\'s mission to transform digital experiences.',
+    name: 'Amir Hamza',
+    image: 'https://i.postimg.cc/ZYXmHpTB/Whats-App-Image-2026-07-19-at-10-36-28-PM.jpg',
+    role: 'CEO',
+    description: 'A motivated and customer-focused Sales Professional responsible for building strong client relationships, identifying business opportunities, promoting products and services, and supporting sales growth. Skilled in communication, lead generation, customer follow-up, negotiation, and maintaining client satisfaction. Focused on achieving sales targets and contributing to the overall success of the organization.',
     avatarColor: '#06B6D4',
     socials: { github: '#', linkedin: '#', twitter: '#' },
   },
   {
-    name: 'Sarah Chen',
-    image: '/images/team/sarah-chen.jpg',
-    role: 'CTO',
-    description: 'Full-stack architect specializing in scalable systems. Expert in React, Node.js, and cloud architecture.',
+    name: 'Sheikh Siam',
+    image: 'https://i.postimg.cc/90bThgRB/Chat-GPT-Image-May-31-2026-05-44-27-PM.png',
+    role: 'Founder',
+    description: 'An organized and results-driven Operations Developer focused on improving business processes, supporting technical operations, and developing efficient digital solutions. Skilled in coordinating tasks, analyzing operational requirements, troubleshooting technical issues, managing systems and data, and collaborating with teams to ensure smooth and efficient day-to-day operations. Passionate about automation, process optimization, and using technology to improve productivity and business performance.',
     avatarColor: '#3B82F6',
     socials: { github: '#', linkedin: '#', twitter: '#' },
   },
   {
-    name: 'David Kim',
-    image: '/images/team/david-kim.jpg',
-    role: 'Lead Designer',
-    description: 'Award-winning UI/UX designer. Creates intuitive, beautiful interfaces that users love.',
+    name: 'Slaman Sha',
+    image: 'https://i.postimg.cc/D0qh5rZ9/(470)-Discord-Salman-Shah-Google-Chrome-9-3-2026-10-25-27-PM.png',
+    role: 'Lead Operations Developer',
+    description: 'A responsible and detail-oriented Operations Developer focused on improving business processes, supporting technical operations, and ensuring smooth day-to-day workflow. Skilled in task coordination, system management, troubleshooting, data handling, process optimization, and collaboration with different teams. Dedicated to using technology and efficient solutions to improve productivity, operational performance, and overall business efficiency.',
     avatarColor: '#8B5CF6',
     socials: { github: '#', linkedin: '#', twitter: '#' },
-  },
-  {
-    name: 'Emily Rodriguez',
-    image: '/images/team/emily-rodriguez.jpg',
-    role: 'AI Lead',
-    description: 'Machine learning engineer building intelligent automation and AI-powered solutions.',
-    avatarColor: '#FF8A3D',
-    socials: { github: '#', linkedin: '#', twitter: '#' },
-  },
+  }
 ]
 
 export default function Team() {
