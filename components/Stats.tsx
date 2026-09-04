@@ -3,6 +3,7 @@
 import { motion, useInView } from 'framer-motion'
 import { useRef, useEffect, useState } from 'react'
 import { 
+  Globe,
   Code, 
   Users, 
   Cpu, 
@@ -16,36 +17,36 @@ import {
 
 const stats = [
   { 
-    value: 50, 
+    value: 3, 
     suffix: '+', 
-    label: 'Projects Completed',
-    icon: Code,
+    label: 'Core Team Members',
+    icon: Users,
     color: '#06B6D4',
     gradient: 'from-cyan-500 to-blue-500',
-  },
-  { 
-    value: 30, 
-    suffix: '+', 
-    label: 'Happy Clients',
-    icon: Users,
-    color: '#8B5CF6',
-    gradient: 'from-purple-500 to-pink-500',
   },
   { 
     value: 10, 
     suffix: '+', 
     label: 'Technologies Mastered',
     icon: Cpu,
-    color: '#FF8A3D',
-    gradient: 'from-orange-500 to-yellow-500',
+    color: '#8B5CF6',
+    gradient: 'from-purple-500 to-pink-500',
   },
   { 
-    value: 99, 
+    value: 100, 
     suffix: '%', 
     label: 'Client Satisfaction',
     icon: Star,
     color: '#10B981',
     gradient: 'from-emerald-500 to-teal-500',
+  },
+  { 
+    value: 1, 
+    suffix: '', 
+    label: 'Global Focus',
+    icon: Globe,
+    color: '#FF8A3D',
+    gradient: 'from-orange-500 to-yellow-500',
   },
 ]
 
@@ -345,16 +346,16 @@ export default function Stats() {
           className="mt-12 flex flex-wrap items-center justify-center gap-8"
         >
           <div className="flex items-center gap-3 bg-white/5 backdrop-blur-sm border border-white/10 rounded-full px-6 py-3">
-            <Award className="w-5 h-5 text-cyan-400" />
-            <span className="text-white/60 text-sm">Trusted by 40+ companies</span>
+            <Trophy className="w-5 h-5 text-cyan-400" />
+            <span className="text-white/60 text-sm">Engineering-first approach</span>
           </div>
           <div className="flex items-center gap-3 bg-white/5 backdrop-blur-sm border border-white/10 rounded-full px-6 py-3">
             <TrendingUp className="w-5 h-5 text-emerald-400" />
-            <span className="text-white/60 text-sm">200% avg growth for clients</span>
+            <span className="text-white/60 text-sm">Scalable & future-ready</span>
           </div>
           <div className="flex items-center gap-3 bg-white/5 backdrop-blur-sm border border-white/10 rounded-full px-6 py-3">
             <Zap className="w-5 h-5 text-purple-400" />
-            <span className="text-white/60 text-sm">99.9% project success rate</span>
+            <span className="text-white/60 text-sm">AI-ready development</span>
           </div>
         </motion.div>
       </div>

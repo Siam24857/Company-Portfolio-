@@ -275,7 +275,7 @@ export default function Hero() {
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-cyan-400"></span>
               </span>
               <span className="font-space text-[11px] font-semibold tracking-[0.12em] uppercase bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent">
-                Digital Innovation • Technology • Creativity
+                IT Services & IT Consulting • Software Development
               </span>
             </motion.div>
 
@@ -290,7 +290,7 @@ export default function Hero() {
                   transform: `translate(${mousePosition.x * 0.02}px, ${mousePosition.y * 0.02}px)`,
                 }}
               >
-                We Build Digital
+                Engineering Digital
               </motion.h1>
               <motion.h1
                 initial={{ opacity: 0, y: 40 }}
@@ -302,7 +302,7 @@ export default function Hero() {
                 }}
               >
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 animate-gradient-x">
-                  Experiences
+                  Ideas Into Reality
                 </span>
               </motion.h1>
               <motion.h1
@@ -314,7 +314,7 @@ export default function Hero() {
                   transform: `translate(${mousePosition.x * 0.01}px, ${mousePosition.y * 0.01}px)`,
                 }}
               >
-                That Move Businesses Forward.
+                Modern. Scalable. Intelligent.
                 <motion.span 
                   className="absolute -bottom-2 left-0 w-32 h-1 bg-gradient-to-r from-cyan-400 to-purple-400"
                   animate={{ width: ['0%', '100%'] }}
@@ -330,7 +330,7 @@ export default function Hero() {
               transition={{ duration: 0.65, delay: 0.7 }}
               className="font-inter text-base sm:text-lg text-white/60 max-w-lg mb-10 leading-relaxed"
             >
-              <ScrambleText text="IDEON is a premium technology company specializing in web development, mobile apps, AI solutions, and digital transformation. We turn bold ideas into powerful digital reality." delay={1000} />
+              <ScrambleText text="IDEONS is a technology-focused software company dedicated to building modern, scalable, and intelligent digital solutions for businesses, startups, and organizations." delay={1000} />
             </motion.p>
 
             {/* CTA Row with Glassmorphism */}
@@ -395,7 +395,7 @@ export default function Hero() {
                   ))}
                 </div>
                 <span className="font-mono text-xs text-white/50">
-                  Trusted by 40+ clients across 12 countries
+                  Trusted by startups and businesses globally
                 </span>
               </div>
             </motion.div>
@@ -425,9 +425,9 @@ export default function Hero() {
                   
                   {/* Image with clipping and border glow */}
                   <div className="relative">
-                    <img
+                     <img
                       src="/Companypicter.jpg"
-                      alt="IDEON Company"
+                      alt="IDEONS Company"
                       className="w-72 h-72 object-cover transition-all duration-300 group-hover:scale-105"
                       style={{ 
                         clipPath: 'polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)',

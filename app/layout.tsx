@@ -27,13 +27,13 @@ const jetbrainsMono = JetBrains_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'IDEON — Digital Innovation & Technology Company',
-  description: 'IDEON is a premium technology company specializing in web development, mobile apps, AI solutions, and digital transformation. We build digital experiences that move businesses forward.',
-  keywords: ['web development', 'mobile development', 'AI', 'UI/UX design', 'digital transformation', 'software solutions', 'IDEON', 'technology company'],
-  authors: [{ name: 'IDEON' }],
+  title: 'IDEONS — Engineering Digital Ideas Into Reality',
+  description: 'IDEONS is a technology-focused software company building modern, scalable, and intelligent digital solutions. Specializing in web development, AI, cloud solutions, and software engineering.',
+  keywords: ['IDEONS', 'software development', 'web development', 'AI', 'cloud solutions', 'IT consulting', 'digital transformation', 'full-stack development'],
+  authors: [{ name: 'IDEONS' }],
   openGraph: {
-    title: 'IDEON — Digital Innovation & Technology Company',
-    description: 'We Build Digital Experiences That Move Businesses Forward.',
+    title: 'IDEONS — Engineering Digital Ideas Into Reality',
+    description: 'Technology-focused software company building modern, scalable, and intelligent digital solutions.',
     type: 'website',
   },
 }

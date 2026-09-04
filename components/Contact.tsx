@@ -133,7 +133,7 @@ export default function Contact() {
   }
 
   const copyEmail = async () => {
-    await navigator.clipboard.writeText('hello@ideon.co')
+    await navigator.clipboard.writeText('siamtechofficial1597@gmail.com')
     setCopied(true)
     setTimeout(() => setCopied(false), 2000)
   }
@@ -402,7 +402,7 @@ export default function Contact() {
                   <div className="text-left">
                     <p className="text-white/40 text-xs">Email</p>
                     <span className="font-space font-semibold text-lg text-cyan-400 group-hover:underline decoration-2 underline-offset-4 transition-all duration-200">
-                      hello@ideon.co
+                      siamtechofficial1597@gmail.com
                     </span>
                   </div>
                   <Copy className="w-4 h-4 text-white/20 ml-auto group-hover:text-cyan-400 transition-colors duration-300" />

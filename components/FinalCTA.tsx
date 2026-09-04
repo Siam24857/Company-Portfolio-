@@ -241,7 +241,7 @@ export default function FinalCTA() {
               <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-cyan-400"></span>
             </span>
             <span className="font-space text-[11px] font-semibold tracking-[0.12em] uppercase bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent">
-              LET'S BUILD TOGETHER
+              IDEONS — ENGINEERING DIGITAL IDEAS
             </span>
           </motion.div>
 
@@ -268,7 +268,7 @@ export default function FinalCTA() {
             }}
           >
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 animate-gradient-x">
-              <TypewriterText text="Let's Build It Together." delay={500} />
+              <TypewriterText text="Into Reality." delay={500} />
             </span>
           </motion.h2>
 

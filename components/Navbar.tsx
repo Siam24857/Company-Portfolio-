@@ -116,7 +116,7 @@ export default function Navbar() {
               className="group relative font-syne font-extrabold text-2xl text-white transition-all duration-300"
             >
               <span className="relative z-10">
-                IDEON
+                IDEONS
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-400">.</span>
               </span>
               <motion.span
